@@ -1,0 +1,22 @@
+Description: Outputs for cross account access to the cfn-json-value-resource.
+Parameters:
+  JsonValueLambdaArn:
+    Type: String
+    Description: ARN of the Lambda-backed CFN Json Value Resource.
+
+Resources:
+  Parameter:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Name: /cfn-json-value-resource/lambda-arn
+      Type: String
+      Value: !Ref JsonValueLambdaArn
+
+Outputs:
+  JsonValueLambdaArn:
+    Value: !Ref JsonValueLambdaArn
+    Description: ARN of the lambda for the CFN Json Value Resource.
+    Export:
+      Name: !Sub ${AWS::StackName}:JsonValueLambdaArn
+
+  

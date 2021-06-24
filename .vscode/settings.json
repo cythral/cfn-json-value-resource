@@ -1,0 +1,12 @@
+{
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "omnisharp.enableEditorConfigSupport": true,
+  "omnisharp.enableRoslynAnalyzers": true,
+  "prettier.enable": false,
+  "xml.format.preserveAttributeLineBreaks": true,
+  "csharp.semanticHighlighting.enabled": true,
+  "editor.semanticHighlighting.enabled": true,
+  "markdown.extension.toc.levels": "2..6"
+}

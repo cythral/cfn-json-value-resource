@@ -1,0 +1,9 @@
+<Project>
+    <Target Name="RestoreTools" AfterTargets="Restore">
+        <Exec Command="dotnet tool restore" ConsoleToMsBuild="true" />
+    </Target>
+
+    <Target Name="Format" DependsOnTargets="Restore;RestoreTools">
+        <Exec Command="dotnet format $(MSBuildThisFileDirectory)cfn-json-value-resource.sln --fix-style info" />
+    </Target>
+</Project>

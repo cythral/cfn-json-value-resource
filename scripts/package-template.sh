@@ -8,7 +8,7 @@ fi
 
 mkdir -p bin
 aws cloudformation package \
-    --template-file $cwd/../bin/GatewayRouteResource/Release/*/Handler.template.yml \
+    --template-file $cwd/../bin/JsonValueResource/Release/*/Handler.template.yml \
     --s3-bucket $ARTIFACT_STORE \
     --s3-prefix template-objects \
     --output-template-file $cwd/../bin/Handler.template.yml

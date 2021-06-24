@@ -7,9 +7,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="AWSSDK.Core" Version="3.7.0.35" />
-        <PackageReference Include="Lambdajection" Version="0.8.2" />
-        <PackageReference Include="Lambdajection.CustomResource" Version="0.8.2" />
+        <PackageReference Include="Lambdajection" Version="0.8.3" />
+        <PackageReference Include="Lambdajection.CustomResource" Version="0.8.3" />
         <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
     </ItemGroup>
 

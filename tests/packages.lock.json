@@ -1570,9 +1570,9 @@
       "jsonvalueresource": {
         "type": "Project",
         "dependencies": {
-          "Lambdajection": "0.8.4",
-          "Lambdajection.CustomResource": "0.8.4",
-          "System.ComponentModel.Annotations": "5.0.0"
+          "Lambdajection": "[0.8.4, )",
+          "Lambdajection.CustomResource": "[0.8.4, )",
+          "System.ComponentModel.Annotations": "[5.0.0, )"
         }
       }
     }
